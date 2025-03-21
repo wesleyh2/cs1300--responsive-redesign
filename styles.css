@@ -19,6 +19,10 @@ header {
     max-height: 100px;
 }
 
+.menu {
+    display: none;
+}
+
 .logo {
     display: flex;
     max-height: 80%;
@@ -330,13 +334,11 @@ hr {
 
 }
 
-/* Responsive Design */
-@media (max-width: 850px) {
-    .button {
-        height: 100%;
-        margin: 0;
-        padding: 0;
+@media (max-width: 950px) {
+    .menu {
+        display: block;
     }
+
 
     .nav {
         display: flex;
@@ -349,6 +351,18 @@ hr {
 
     .nav-right {
         display: none;
+    }
+
+}
+
+/* Responsive Design */
+@media (max-width: 850px) {
+
+
+    .button {
+        height: 100%;
+        margin: 0;
+        padding: 0;
     }
 
 
